@@ -1,62 +1,48 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# CC Global Fashion Summit
 
-# Project Name
-
-> Description the project.
+> The Custodian Global Fashion Summit. Where Fashion and Tech meets.
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- Major languages: HTML, CSS, JavaScript
+- Frameworks: N/A
+- Technologies used: N/A
 
-## Live Demo (if available)
+## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://deyemiobaa.github.io/CC-global-summit/)
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
-
-### Setup
+- Understand basic HTML
+- Ability to clone repos from github
 
 ### Install
 
-### Usage
-
-### Run tests
-
-### Deployment
-
+- A code editor of your choice
+- A browser
+- Node.js (to run javascript files locally)
 
 
 ## Authors
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@deyemiobaa](https://github.com/deyemiobaa)
+- Twitter: [@deyemiobaa](https://twitter.com/deyemiobaa)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/sodiqa)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/deyemiobaa/CC-global-summit/issues).
 
 ## Show your support
 
@@ -64,10 +50,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+Shout out to [Cindy Shin](https://www.behance.net/adagio07). This project was inspired by her [CC Global Summit](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) Design
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](https://github.com/deyemiobaa/CC-global-summit/blob/main/LICENSE) licensed.
