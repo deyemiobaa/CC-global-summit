@@ -26,6 +26,50 @@ header {
   height: 100%;
 }
 
+/* popup for mobile menu */
+.overlay {
+  background-color: black;
+  background-image: url('../images/popup-background.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  height: 100%;
+  width: 0;
+  position: fixed;
+  overflow: hidden;
+  z-index: 55;
+  margin: 0;
+  left: 0;
+  top: 0;
+  transition: 700ms;
+}
+
+.overlay-content {
+  display: none;
+  width: 30%;
+  list-style: none;
+  margin: 30px;
+  align-self: flex-start;
+}
+
+
+.close-btn {
+  font-size: 50px;
+  padding: 0 20px;
+  margin: 30px 10px 30px 0;
+}
+
+.page-link {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #d3d3d3;
+  font-weight: 600;
+  line-height: 44px;
+}
+/* end of popup for mobile menu */
+
 .about-page-header-content {
   padding: 0 10px 50px 10px;
   margin-top: 5%;

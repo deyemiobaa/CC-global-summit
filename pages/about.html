@@ -7,6 +7,7 @@
   <title>CC Global .. / About</title>
   <link rel="stylesheet" href="../stylesheets/about.css">
   <script src="https://kit.fontawesome.com/eb94992e2c.js" crossorigin="anonymous"></script>
+  <script src="../js/mobile-popup.js" defer></script>
 </head>
 <body>
   <div class="wrapper">
@@ -18,6 +19,30 @@
         class="color-3 font-2">Logout</span>
       </nav>
       <nav class="page-navigation">
+        <!-- mobile menu navigation overlay -->
+        <div id="mobile-menu-navigation" class="overlay mobile-only">
+          <a href="javascript:void(0)" class="close-btn">
+            <i class="fa-solid fa-xmark"></i>
+          </a>
+          <ul class="overlay-content font-2">
+            <li class="page-link">
+              <a href="../home.html">Home</a>
+            </li>
+            <li class="page-link">
+              <a href="javascript:void(0)">Sponsor</a>
+            </li>
+            <li class="page-link">
+              <a href="javascript:void(0)">Join</a>
+            </li>
+            <li class="page-link">
+              <a href="javascript:void(0)">Programs</a>
+            </li>
+            <li class="page-link">
+              <a href="javascript:void(0)">News</a>
+            </li>
+          </ul>
+        </div>
+        <!-- end of mobile navigation overlay -->
         <span class="hamburger color-2 mobile-only"><img src="../images/hamburger.png" alt="Hamburger"></span>
         <div class="desktop-nav desktop-only">
           <span><a class="logo" href="../home.html"><img src="../images/CC-logo.svg" alt="Logo"></a></span>

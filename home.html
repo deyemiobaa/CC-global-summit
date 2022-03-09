@@ -7,6 +7,8 @@
   <title>CC Global Fashion Summit</title>
   <link rel="stylesheet" href="stylesheets/home-style.css">
   <script src="https://kit.fontawesome.com/eb94992e2c.js" crossorigin="anonymous"></script>
+  <script src="js/mobile-popup.js" defer></script>
+  <script src="js/speakers.js" defer></script>
 </head>
 <body>
   <div class="wrapper">
@@ -17,9 +19,37 @@
         <span class="color-3 font-2">English</span><span class="color-3 font-2">My Page</span><span class="color-3 font-2">Logout</span>
       </nav>
       <nav class="page-navigation">
-        <span class="hamburger color-2 mobile-only"><img src="images/hamburger.png" alt="Hamburger"></span>
+        <!-- mobile menu navigation overlay -->
+        <div id="mobile-menu-navigation" class="overlay mobile-only">
+          <a href="javascript:void(0)" class="close-btn">
+            <i class="fa-solid fa-xmark"></i>
+          </a>
+          <ul class="overlay-content font-2">
+            <li class="page-link">
+              <a href="pages/about.html">About</a>
+            </li>
+            <li class="page-link">
+              <a href="javascript:void(0)">Sponsor</a>
+            </li>
+            <li class="page-link">
+              <a href="javascript:void(0)">Join</a>
+            </li>
+            <li class="page-link">
+              <a href="javascript:void(0)">Programs</a>
+            </li>
+            <li class="page-link">
+              <a href="javascript:void(0)">News</a>
+            </li>
+          </ul>
+        </div>
+        <!-- end of mobile navigation overlay -->
+        <span class="ham-container color-2 mobile-only"><img class="hamburger" src="images/hamburger.png" alt="Hamburger"></span>
         <div class="desktop-nav desktop-only">
-          <span><a class="logo" href="home.html"><img src="images/CC-logo.svg" alt="Logo"></a></span>
+          <span id="cc-Logo">
+            <a class="logo" href="home.html">
+              <img src="images/CC-logo.svg" alt="Logo">
+            </a>
+          </span>
           <ul class="desktop-nav-items color-2 font-2">
             <li>
               <a href="pages/about.html">About</a>
@@ -33,7 +63,7 @@
         </div>
       </nav>
       <section class="header-content">
-        <p class="font-2 color-1 greeting">"Let's Talk Fashion Without Borders"</p>
+        <p class="font-2 color-2 greeting">"Let's Talk Fashion Without Borders"</p>
         <h1 class="font-1 hero color-1">CULTURE CUSTODIAN<br>GLOBAL FASHION SUMMIT<br>2022</h1>
         <p class="title font-2 color-2">
           The joyful event that explores the possibilities and impact of tech in the fashion industry, with guests from all over
@@ -93,62 +123,13 @@
       </a>
     </section>
     <section class="speakers">
-      <h4 class="font-2 color-2"> Featured Speakers</h4>
+      <h4 class="font-2 color-2 speaker-header"> Featured Speakers</h4>
       <div class="red-line"></div>
       <div class="speaker-list">
-        <div class="speaker">
-          <span class="speaker-img">
-            <img src="images/speakers/shola-akinlade.jpg" alt="Paystack, CEO">
-          </span>
-          <div class="speaker-details">
-            <h5 class="color-2 font-2">Shola Akinlade</h5>
-            <p class="color-1 font-1 description">Co-founder and CEO of Paystack</p>
-            <div class="dash"></div>
-            <p class="about font-2 color-2">
-              Shola is a Nigerian software engineer and entrepreneur.
-            </p>
-          </div>
-        </div>
-        <div class="speaker">
-          <span class="speaker-img">
-            <img src="images/speakers/shola-akinlade.jpg" alt="Paystack, CEO">
-          </span>
-          <div class="speaker-details">
-            <h5 class="color-2 font-2">Shola Akinlade</h5>
-            <p class="color-1 font-1 description">Co-founder and CEO of Paystack</p>
-            <div class="dash"></div>
-            <p class="about font-2 color-2">
-              Shola is a Nigerian software engineer and entrepreneur.
-            </p>
-          </div>
-        </div>
-        <div class="speaker">
-          <span class="speaker-img">
-            <img src="images/speakers/shola-akinlade.jpg" alt="Paystack, CEO">
-          </span>
-          <div class="speaker-details">
-            <h5 class="color-2 font-2">Shola Akinlade</h5>
-            <p class="color-1 font-1 description">Co-founder and CEO of Paystack</p>
-            <div class="dash"></div>
-            <p class="about font-2 color-2">
-              Shola is a Nigerian software engineer and entrepreneur.
-            </p>
-          </div>
-        </div>
-        <div class="speaker">
-          <span class="speaker-img">
-            <img src="images/speakers/shola-akinlade.jpg" alt="Paystack, CEO">
-          </span>
-          <div class="speaker-details">
-            <h5 class="color-2 font-2">Shola Akinlade</h5>
-            <p class="color-1 font-1 description">Co-founder and CEO of Paystack</p>
-            <div class="dash"></div>
-            <p class="about font-2 color-2">
-              Shola is a Nigerian software engineer and entrepreneur.
-            </p>
-          </div>
-        </div>
       </div>
+      <button type="button" class="color-2 font-2 see-more">
+        SEE MORE  <i class="fa-solid fa-angle-down color-1"></i>
+      </button>
     </section>
     <section class="partners">
       <h6 class="font-2 color-3">Partners</h6>
