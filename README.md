@@ -13,6 +13,9 @@
 
 [Live Demo Link](https://deyemiobaa.github.io/CC-global-summit/)
 
+## Presentation
+
+Watch me present my project [here.](https://www.loom.com/share/551d14d5b30f489098da3672a76c27b3)
 
 ## Getting Started
 
