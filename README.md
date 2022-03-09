@@ -17,7 +17,7 @@
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
-- clone the repo 
+- clone the repo with HTTP: https://github.com/deyemiobaa/CC-global-summit.git  OR SSH: git@github.com:deyemiobaa/CC-global-summit.git
 
 ### Prerequisites
 - Understand basic HTML, CSS and JS
