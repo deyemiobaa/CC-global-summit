@@ -388,9 +388,6 @@ footer > span {
 
   .date { font-size: 1.8rem; }
 
-  .red-line {
-  }
-
   .main-program-content {
     display: -ms-grid;
     display: grid;
