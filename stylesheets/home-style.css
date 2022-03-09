@@ -125,7 +125,7 @@ header {
 }
 
 .main-program > h2 {
-  margin: 1.5rem  0;
+  margin: 1.5rem  0 0;
   font-size: 1.5rem;
   letter-spacing: 0.1rem;
 }
@@ -135,6 +135,7 @@ header {
   background-color: #ec5242;
   border-radius: 2px;
   height: 3px;
+  margin-top: 10px;
 }
 
 .main-program-content {
@@ -184,7 +185,7 @@ header {
 }
 
 .speakers > h4 {
-  margin: 1.5rem  0;
+  margin: 1.5rem  0 0;
   font-size: 1.5rem;
   letter-spacing: 0.1rem;
 }
@@ -260,7 +261,7 @@ header {
 }
 
 .partners > h6 {
-  margin: 1.5rem  0;
+  margin: 1.5rem  0 0;
   font-size: 1.5rem;
   letter-spacing: 0.1rem;
 }
@@ -388,7 +389,6 @@ footer > span {
   .date { font-size: 1.8rem; }
 
   .red-line {
-    width: 50px;
   }
 
   .main-program-content {

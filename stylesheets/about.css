@@ -122,9 +122,13 @@ header {
   border-bottom: 2px solid #d3d3d3;
 }
 
+.summit-details > h2 {
+  margin: 0;
+}
+
 .summit-details > p {
   text-align: center;
-  margin: 0;
+  margin: 15px 0 0;
   line-height: 20px;
 }
 
@@ -133,7 +137,7 @@ header {
   background-color: #ec5242;
   border-radius: 2px;
   height: 3px;
-  margin: 20px 0;
+  margin: 10px 0 0;
 }
 
 .cc-logo {
@@ -158,8 +162,12 @@ header {
 
 .past-events > p {
   width: 300px;
-  margin: auto;
+  margin: 10px 0 0;
   text-align: center;
+}
+
+.past-events > h3 {
+  margin: 15px 0 0;
 }
 
 .previous-events {
@@ -170,7 +178,7 @@ header {
   margin: 30px 0;
 }
 
-.previous-events > div {
+.event {
   width: 300px;
   height: 180px;
   color: #fff;
@@ -215,7 +223,7 @@ header {
 }
 
 .partners > h6 {
-  margin: 1.5rem  0;
+  margin: 1.5rem  0 0;
   font-size: 1.5rem;
   letter-spacing: 0.1rem;
 }
@@ -346,6 +354,7 @@ footer {
 
   .sub-header {
     font-size: 1.8rem;
+    margin: 30px 0 0 0;
   }
 
   .title,
@@ -360,6 +369,7 @@ footer {
     width: 700px;
     line-height: 24px;
     font-size: 1.2rem;
+    padding: 10px 0 0;
   }
 
   .previous-events {
@@ -371,6 +381,7 @@ footer {
     line-height: 24px;
     font-size: 1.2rem;
     width: 700px;
+    margin: 15px 0 0;
   }
 
   footer {
