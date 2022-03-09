@@ -54,4 +54,4 @@ Shout out to [Cindy Shin](https://www.behance.net/adagio07). This project was in
 
 ## 📝 License
 
-This project is [MIT](https://github.com/deyemiobaa/CC-global-summit/blob/main/LICENSE) licensed.
+This project is [MIT](./LICENSE) licensed.
