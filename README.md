@@ -17,9 +17,10 @@
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
+- clone the repo 
 
 ### Prerequisites
-- Understand basic HTML
+- Understand basic HTML, CSS and JS
 - Ability to clone repos from github
 
 ### Install
@@ -54,4 +55,4 @@ Shout out to [Cindy Shin](https://www.behance.net/adagio07). This project was in
 
 ## 📝 License
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](LICENSE) licensed.
