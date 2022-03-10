@@ -10,6 +10,7 @@
 - Technologies used: N/A
 
 ## Live Demo
+<img src="images/project-snapshot.svg" alt="Project Snapshot">
 
 [Live Demo Link](https://deyemiobaa.github.io/CC-global-summit/)
 
