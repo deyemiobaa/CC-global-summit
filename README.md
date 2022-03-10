@@ -10,16 +10,21 @@
 - Technologies used: N/A
 
 ## Live Demo
+<img src="images/project-snapshot.svg" alt="Project Snapshot">
 
 [Live Demo Link](https://deyemiobaa.github.io/CC-global-summit/)
 
+## Presentation
+
+Watch me present my project [here.](https://www.loom.com/share/551d14d5b30f489098da3672a76c27b3)
 
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
+- clone the repo with HTTP: https://github.com/deyemiobaa/CC-global-summit.git  OR SSH: git@github.com:deyemiobaa/CC-global-summit.git
 
 ### Prerequisites
-- Understand basic HTML
+- Understand basic HTML, CSS and JS
 - Ability to clone repos from github
 
 ### Install
@@ -54,4 +59,4 @@ Shout out to [Cindy Shin](https://www.behance.net/adagio07). This project was in
 
 ## 📝 License
 
-This project is [MIT](https://github.com/deyemiobaa/CC-global-summit/blob/main/LICENSE) licensed.
+This project is [MIT](LICENSE) licensed.
